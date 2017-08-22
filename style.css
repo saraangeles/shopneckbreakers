@@ -1,0 +1,84 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url(cover2.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+	color:white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+	font-family: 'Megrim', cursive;
+		text-shadow:	0px 4px 3px rgba(0,0,0,0.4),
+						0px 38px 13px rgba(0,0,0,0.1),
+						0px 48px 23px rgba(0,0,0,0.1); 
+}
+
+h3 {
+	font-family: 'Megrim', cursive;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#content {
+	text-align:center;
+	padding-top: 	30%;
+	text-shadow:	0px 4px 3px rgba(0,0,0,0.4),
+					0px 8px 13px rgba(0,0,0,0.1),
+					0px 18px 23px rgba(0,0,0,0.1); 
+}
+
+#nav-snb {
+	font-family: 'Megrim', cursive;
+	color: #2f3030;
+	font-size: 3em;
+
+}
+
+/* form */
+
+/* Changes the style of the overall form */
+#mc_embed_signup {
+    background: #f8f8f8;
+    color: #999999;
+    padding: 15px;
+        text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+/* Styles the header text above the inputs */
+#mc_embed_signup h2 {
+    font-size: 18px;
+    margin: 0 0 20px;
+    color: #2f3030;
+    text-align: center;
+}
+
+/* Adds extra space around the input boxes */
+#mc_embed_signup .mc-field-group {
+    padding: 5px 0;
+}
+
+/* Styles the input boxes */
+#mc_embed_signup  input {
+    width: 200px;
+}
+
+/* Styles the subscribe button */
+#mc_embed_signup .button {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+
